@@ -1,26 +1,40 @@
-# i3 Dotfiles
 
-This repository contains my personal dotfiles for the i3 window manager setup on Ubuntu 22. It includes configurations for i3, i3status, Picom, Rofi, and other utilities that I use to enhance my desktop environment.
+# Custom i3 window manager config for Ubuntu
 
-## Setup
+This is my personal i3 window manager configuration for Ubuntu. It is optimized for productivity and simplicity, with a focus on keybindings, efficient window management, and aesthetic customization.
 
-To set up the environment, follow these steps:
+## Features
 
-### Prerequisites
+- **Keybindings**: 
+  - Use `Mod + Return` to open a terminal.
+  - Use `Mod + Shift + q` to kill the focused window.
+  - Use `Mod + d` to launch `rofi` for program launching.
+  - Workspace switching and management with `Mod + 1` to `Mod + 0`.
+  - Floating window management with `Mod + Shift + space`.
 
-Before you start, make sure you have the following installed on your system:
+- **Appearance**:
+  - Custom color scheme.
+  - Transparent windows using `picom`.
+  - Wallpaper management with `feh`.
 
-- **Ubuntu 22** (or any Linux distribution with i3 window manager)
-- **i3 window manager**
-- **i3status** (for the status bar)
-- **Picom** (for transparency and effects)
-- **Rofi** (for application launcher)
-- **Feh** (for wallpaper setting)
-- **brightnessctl** (for controlling screen brightness)
+- **System**:
+  - **Brightness Control**: Adjust screen brightness with `XF86MonBrightnessUp` and `XF86MonBrightnessDown`.
+  - **Audio**: Volume control with `XF86AudioRaiseVolume`, `XF86AudioLowerVolume`, and `XF86AudioMute`.
+  - **Networking**: Automatically starts `nm-applet` for managing network connections.
 
-### Clone the repository
+## Installation
+- 1. Please make a backup of the current i3 configuration on **.config** folder
+- 2. Install the following dependancies: 
+ - rofi
+ - picom
+ - feh
+ - brightnessctl
+ - scrot
 
-Clone this repository to your local machine by running the following command in your terminal:
 
-```bash
-git clone https://github.com/yourusername/i3-dotfiles.git ~/.dotfiles
+## Screenshots
+![Screenshot 1](/screenshots/screenshot_2025-03-09_04-23-11.png)
+![Screenshot 2](/screenshots/screenshot_2025-03-09_04-23-45.png)
+![Screenshot 3](/screenshots/screenshot_2025-03-09_04-23-53.png)
+
+
