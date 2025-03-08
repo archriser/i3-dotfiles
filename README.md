@@ -7,7 +7,7 @@ This is my personal i3 window manager configuration for Ubuntu. It is optimized 
 
 - **Keybindings**: 
   - Use `Mod + Return` to open a terminal.
-  - Use `Mod + Shift + q` to kill the focused window.
+  - Use `Mod + q` to kill the focused window.
   - Use `Mod + d` to launch `rofi` for program launching.
   - Workspace switching and management with `Mod + 1` to `Mod + 0`.
   - Floating window management with `Mod + Shift + space`.
