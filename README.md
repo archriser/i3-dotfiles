@@ -23,8 +23,8 @@ This is my personal i3 window manager configuration for Ubuntu. It is optimized 
   - **Networking**: Automatically starts `nm-applet` for managing network connections.
 
 ## Installation
-- 1. Please make a backup of the current i3 configuration on **.config** folder
-- 2. Install the following dependancies: 
+- Please make a backup of the current i3 configuration on **.config** folder
+- Install the following dependancies: 
   - rofi
    - picom
    - feh
