@@ -25,11 +25,11 @@ This is my personal i3 window manager configuration for Ubuntu. It is optimized 
 ## Installation
 - 1. Please make a backup of the current i3 configuration on **.config** folder
 - 2. Install the following dependancies: 
- - rofi
- - picom
- - feh
- - brightnessctl
- - scrot
+  - rofi
+   - picom
+   - feh
+   - brightnessctl
+   - scrot
 
 
 ## Screenshots
