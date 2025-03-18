@@ -54,10 +54,10 @@ ethernet _first_ {
 }
 
 battery 0 {
-        format = "%status %remaining"
-	status_chr = " "
-	status_bat = " "
-	status_full = " "
+        format = "%status %percentage %remaining"
+	status_chr = ""
+	status_bat = ""
+	status_full = ""
 	hide_seconds = "true"
 	integer_battery_capacity = "true"
 	low_threshold = "20"
@@ -81,5 +81,5 @@ volume master {
 }
 
 tztime local {
-        format = " %a %b %d  %H:%M:%S"
+        format = " %a %b %d |  %H:%M:%S"
 }
